@@ -7,6 +7,12 @@
   background-size: cover;
   position: relative;
 }
+
+.nav {
+    background-color: transparent;
+  color: white;
+}
+
 .headertxt {
   text-align: center;
   position: absolute;
