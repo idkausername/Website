@@ -20,8 +20,6 @@ body, html {
 
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
-$bg-color: #4242e6;
-$glitch-bg-color: $bg-color;
 
 html, body {
   height: 100%;
@@ -31,7 +29,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 16px;
   font-weight: bold;
-  color: transparent;
+  color: #a5a5ff;
   background-color: $bg-color;
 }
 
