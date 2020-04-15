@@ -38,6 +38,7 @@ section .wave:before
   opacity: 0.4;
   animation: animate-reverse 10s linear infinite;
 }
+
 section .wave:after
 {
   content: '';
