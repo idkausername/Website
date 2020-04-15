@@ -48,7 +48,7 @@ section .wave:after
   left: 0;
   opacity: 0.6;
   animation-delay: -5;
-  animation: animate20s linear infinite;
+  animation: animate 20s linear infinite;
 }
 
 @keyframes animate
