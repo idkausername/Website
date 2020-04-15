@@ -48,6 +48,22 @@
 		<center><h1 style="font-weight: bold; color: text-shadow: 0 4px 0 rgba(255, 255, 255, 0.5);"> About Us</h1></center>
 	</div>
 	
-	<script  src="j.js"></script>
+    	<script>$(document).ready(function(){
+  // MODAL
+  $('.modal').modal();
+  // DROPDOWNS
+  $(".dropdown-button").dropdown(
+    {
+      belowOrigin: true
+    }
+  );
+  // TABS
+  $('ul.tabs').tabs();
+  // SCROLLSPY
+  $('.scrollspy').scrollSpy();
+  //SIDENAV
+  $(".button-collapse").sideNav();
+});
+</script>
 	<script>   M.AutoInit();  </script>
 </body>
