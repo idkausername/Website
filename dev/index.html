@@ -11,6 +11,11 @@
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
 </head>
@@ -31,7 +36,7 @@
         </div>
       </div>
       <ul class="side-nav" id="mobile-demo">
-             <li><a href="#about">About Us</a></li>
+                            <li><a href="#about">About Us</a></li>
             <li><a href="#client">Client Showcase</a></li>
             <li><a href="#contact">Contact us</a></li>
       </ul>
@@ -44,26 +49,152 @@
 		</div>
 		<div class="wave"></div>
 	</section>
-	<div class="about us">
+	<div id="about">
 		<center><h1 style="font-weight: bold; color: text-shadow: 0 4px 0 rgba(255, 255, 255, 0.5);"> About Us</h1></center>
+		<br>
+		<div class="row">
+      		<div class="col s6 offset-s3"><span class="flow-text">  
+      			<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
+      		</div>
+    </div>
+    <section class="triangle">    
+	<div id="client">
+		<br>
+		<center><h1 style="color: white">Client Showcase</h1></center>
+		<div class="row">
+      			<center><p class="flow-text" style="color: white">Some of the work that we have produced for our clients</p></center>
+			<div class="col s12 m4">
+				  <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+      					<img class="activator" src="https://i.imgur.com/vYWaBTI.jpg">
+    				</div>
+    			   <div class="card-content">
+      					<span class="card-title activator grey-text text-darken-4">Example<i class="material-icons right">more_vert</i></span>
+    				</div>
+    				<div class="card-reveal">
+      					<span class="card-title grey-text text-darken-4">Example<i class="material-icons right">close</i></span>
+      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    				</div>
+  				</div>
+			</div>
+						<div class="col s12 m4">
+				  <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+      					<img class="activator" src="https://i.imgur.com/vYWaBTI.jpg">
+    				</div>
+    			   <div class="card-content">
+      					<span class="card-title activator grey-text text-darken-4">Example<i class="material-icons right">more_vert</i></span>
+    				</div>
+    				<div class="card-reveal">
+      					<span class="card-title grey-text text-darken-4">Example<i class="material-icons right">close</i></span>
+      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    				</div>
+  				</div>
+			</div>
+						<div class="col s12 m4">
+				  <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+      					<img class="activator" src="https://i.imgur.com/vYWaBTI.jpg">
+    				</div>
+    			   <div class="card-content">
+      					<span class="card-title activator grey-text text-darken-4">Example<i class="material-icons right">more_vert</i></span>
+    				</div>
+    				<div class="card-reveal">
+      					<span class="card-title grey-text text-darken-4">Example<i class="material-icons right">close</i></span>
+      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    				</div>
+  				</div>
+			</div>
+		</div>
+	</section>
+		<div id="contact">
+  <div class="contacttxt">
+  <br><br>
+  <br>
+  <center><h1> Contact </h1></center>
+  </div>
+  <form action="mailto:you@example.com" method="post" enctype="text/plain">
+  <div class="container">
+    <div class="row">
+        <div class="col m10 offset-m1 s12">
+		<br><br><br>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <input id="first_name" type="text" class="validate" required>
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="last_name" type="text" class="validate" required>
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <i class="mdi-content-mail prefix"></i>
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <i class="mdi-maps-store-mall-directory prefix"></i>
+                            <input id="company" type="text" class="validate">
+                            <label for="company">Company</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="message" class="materialize-textarea" required></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col m12">
+						<br>
+                          <center><button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="material-icons right"></i></button></center>
+        
+                        </div>
+                    </div>
+            
+    </form>
+            </div>
+        </div>
+    </div>
+</div>
 	</div>
-	
-    	<script>$(document).ready(function(){
-  // MODAL
-  $('.modal').modal();
-  // DROPDOWNS
-  $(".dropdown-button").dropdown(
-    {
-      belowOrigin: true
-    }
-  );
-  // TABS
-  $('ul.tabs').tabs();
-  // SCROLLSPY
-  $('.scrollspy').scrollSpy();
-  //SIDENAV
-  $(".button-collapse").sideNav();
-});
-</script>
+</form>
+
+<footer class="page-footer  purple darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Your company
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+            
+		<script src="j.js"></script>
+
 	<script>   M.AutoInit();  </script>
-</body>
+	</body>
+</html>
